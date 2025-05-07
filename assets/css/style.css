@@ -1,10 +1,33 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-body {
-    font-family: "open sans", sans-serif;
+/* CSS Variables */
+:root {
+    --primary-font: "Open Sans", sans-serif;
+    --secondary-font: "Nunito", sans-serif;
+    --primary-color: #1F3B4D; /* dark blue (heading and highlight color)  */
+    --secondary-color: #333333; /* dark gray (main text color) */
+    --third-color: #2C3E50 ; /* night blue (navbar, footer) */
+    --fourth-color: #E67E22 ; /* orange (buttons, CTA`S) */
+    --fifth-color: #FDF2E9 ; /* light beige (section background) */
+    --sixth-color: #BDC3C7  ; /*Dividers, borders, etc. */
+    --seventh-color: #FAFAFA ; /* White (background color) */
+    --highlight-color: #FF6B6B; /* red (highlight color) */
+    --highlight-color-light: #FFECEC; /* light red (highlight color) */
 }
 
-h1 {
-    font-family: "Nunito", sans-serif;
+/* Global styles */
+body {
+    font-family: var(--primary-font);
+}
+ 
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
 }

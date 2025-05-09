@@ -34,7 +34,7 @@ h3 {
 
 /* Grid Visualization CSS for testing */
 
-.container, .row {
+/*.container, .row {
     border: 2px solid black;
 }
 
@@ -45,4 +45,5 @@ h3 {
 
 main {
     background-color: var(--seventh-color);
-}
+} 
+*/

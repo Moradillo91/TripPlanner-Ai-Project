@@ -21,23 +21,38 @@
 <!-- Classes on body set to work with mt-auto -->
 <body class="d-flex flex-column min-vh-100">
   <!-- Navigation Bar-->
-  <div>Miles & Moments</div>
-  <ul class="nav nav-tabs justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Home</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Countries</a>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Italy</a></li>
-        <li><a class="dropdown-item" href="#">Scotland</a></li>
-        <li><a class="dropdown-item" href="#">Portugal</a></li>
-      </ul>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Gallery</a>
-    </li>
-  </ul>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Miles & Moments</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Countries</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="italy.html">Italy</a></li>
+              <li><a class="dropdown-item" href="scotland.html">Scotland</a></li>
+              <li><a class="dropdown-item" href="Portugal.html">Portugal</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="triproutes.html">Travel Itinerary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <!-- Header Section -->
   <header class="container">

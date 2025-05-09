@@ -17,13 +17,13 @@
 
 /* Global styles */
 body {
-    font-family: var(--primary-font);
+    font-family: var(--secomdary-font);
 }
  
 h1,
 h2,
 h3 {
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
     color: var(--primary-color);
     text-transform: uppercase;
 }
@@ -46,8 +46,13 @@ h3 {
 }
 /* Header styles */
 #header .leader {
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
 }
+
+.carousel-img {
+    max-height: 425px;
+    object-fit: cover;
+    width: 100%;
 /* Grid Visualization CSS for testing */
 
 /*.container, .row {

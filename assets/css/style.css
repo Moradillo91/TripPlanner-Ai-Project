@@ -53,6 +53,14 @@ h3 {
     max-height: 425px;
     object-fit: cover;
     width: 100%;
+}
+
+/* Cards styles */
+
+.btn-mycolor {
+    background-color: var(--highlight-color);
+    color: white;
+}
 /* Grid Visualization CSS for testing */
 
 /*.container, .row {

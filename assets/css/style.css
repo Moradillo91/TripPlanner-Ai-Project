@@ -95,6 +95,11 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Itineraries section */
+.card-img-top {
+    height: 100px;
+    object-fit: cover;
+}
 /* Footer / contact */
 
 #contact {
@@ -118,7 +123,7 @@ h2 {
 }
 
 #contact .social-links i {
-    color: var(--highlight-color-light);
+    color: var(--highlight-color);
     font-size: 1.9rem;
     transition: color 0.3s ease-in-out;
 }

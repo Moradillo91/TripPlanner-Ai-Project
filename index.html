@@ -61,7 +61,7 @@
       <div class="row">
       <div class="col-12">
         <div class="col-12">
-          x<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="assets/images/porto-1.png" class="d-block w-100 carousel-img" alt="Traditional boat on the Douro River in Porto, Portugal, with colorful historic buildings and a lively riverside promenade in the background.">
@@ -95,7 +95,6 @@
           </div>
         </div>
       </div>
-
     </div>
     </div>
   </header>
@@ -198,14 +197,14 @@
       </div>
       <div class="modal-body">
         <p class="mb-4" style="color: black;">Subscribe to our newsletter and be the first to know when new travel itineraries are published or exciting updates go live. Inspiration, tips, and adventures—delivered right to your inbox!</p>
-        <form class="row g-3">
+        <form class="row g-3" action="success.html" method="GET">
           <div class="col-lg-6">
             <label for="inputName" class="form-label">Name</label>
-            <input type="text" class="form-control" id="inputName" placeholder="Your full name">
+            <input type="text" class="form-control" id="inputName" placeholder="Your full name" required>
           </div>
           <div class="col-lg-6">
             <label for="inputEmail" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail" placeholder="your@email.com">
+            <input type="email" class="form-control" id="inputEmail" placeholder="your@email.com" required>
           </div>
           <div class="col-12 mt-3">
             <button type="submit" class="btn btn-outline-primary btn-mycolor d-grid gap-2 square w-100">Sign up!</button>

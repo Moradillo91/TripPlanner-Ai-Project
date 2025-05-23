@@ -87,8 +87,9 @@ h5 {
 .btn-mycolor {
     background-color: var(--highlight-color); !important;
     color: white; !important;
-    border: none; !important;
+    border: solid white ; !important;
 }
+
 
 .square {
     border-radius: 0;

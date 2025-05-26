@@ -3,8 +3,6 @@
 
 Miles & Moments is a dynamic travel planning website designed to help users create smart, personalized itineraries with ease. It aims to make travel planning more intuitive by offering AI-powered suggestions for destinations, accommodations, restaurants, and attractions. This project is geared toward all kinds of travelers — couples, families, solo adventurers, and digital nomads — looking to plan a trip with less hassle and more inspiration.
 
-![Responsive Mockup](assets/images/miles-moments-preview.png)
-
 ---
 
 ## Features
@@ -47,8 +45,6 @@ Includes icons linking to social media pages. The links open in new tabs, helpin
 
 ### Unfixed Bugs
 - Occasionally, long destination names in cards overflow on smaller screens.
-- Some WebP images may not load in older browsers. Fallbacks are planned.
-
 ---
 
 ## Deployment
@@ -72,5 +68,3 @@ The site was deployed via GitHub Pages:
 - Icons from [Font Awesome](https://fontawesome.com/)
 
 ---
-
-**Congratulations on your journey — this project is one step closer to professional-grade development!**

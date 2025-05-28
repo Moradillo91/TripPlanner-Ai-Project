@@ -132,8 +132,6 @@ img {
 
 .carousel-img {
     max-height: 425px;
-    -o-object-fit: cover;
-       object-fit: cover;
     width: 100%;
 }
 
@@ -169,8 +167,6 @@ img {
 
 .card-img-top {
     max-height: 200px;
-    -o-object-fit: cover;
-       object-fit: cover;
     width: 100%;
 }
 
@@ -191,8 +187,6 @@ img {
 /* Itineraries section */
 .card-img-top {
     height: 100px;
-    -o-object-fit: cover;
-       object-fit: cover;
     width: 100%;
 }
 
@@ -211,8 +205,6 @@ iframe {
 .height-img {
     height: 100%;
     width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; 
     max-height: 600px;
 }
 

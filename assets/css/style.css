@@ -198,8 +198,7 @@ iframe {
     width: 100%;
     height: 300px;
     border: none;
-    -webkit-filter: brightness(1.0);
-            filter: brightness(1.0);
+    filter: brightness(1.0);
 }
 
 .height-img {
@@ -238,8 +237,6 @@ iframe {
 #contact .social-links i {
     color: var(--highlight-color);
     font-size: 1.9rem;
-    -webkit-transition: color 0.3s ease-in-out;
-    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -249,12 +246,7 @@ iframe {
 
 /* Gallery page */
 #photos {
-    -webkit-column-count: 3;
-       -moz-column-count: 3;
-            column-count: 3;
-    -webkit-column-gap: 10px;
-       -moz-column-gap: 10px;
-            column-gap: 10px;
+    column-count: 3;
     padding: 10px;
   }
   
